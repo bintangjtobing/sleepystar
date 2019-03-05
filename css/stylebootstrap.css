@@ -1,0 +1,290 @@
+/*SCROLL BAR */
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    border: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
+:root {
+    --blue: #377dff;
+    --indigo: #2d1582;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #de4437;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #00c9a7;
+    --cyan: #00dffc;
+    --white: #fff;
+    --gray: #8c98a4;
+    --gray-dark: #343a40;
+    --primary: #377dff;
+    --secondary: #77838f;
+    --success: #00c9a7;
+    --info: #00dffc;
+    --warning: #ffc107;
+    --danger: #de4437;
+    --light: #f8f9fa;
+    --dark: #1e2022;
+    --white: #fff;
+    --indigo: #2d1582;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Poppins", Helvetica, Arial, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+hr {
+    width: 50px;
+    border: 1.5px solid #222222;
+}
+
+
+/* JUMBOTRON SECTION */
+.jumbotron {
+    min-height: 750px;
+    background-image: url(../img/imgheader.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: right;
+}
+
+.container-fluid {
+    padding-top: 100px;
+}
+
+.element {
+    color: #3a8860;
+}
+
+.container-fluid h1 {
+    color: #3a8860;
+}
+
+.container-fluid h1:hover {
+    color: #17ff89;
+    transition: 1s ease;
+}
+
+/* What we Do SECTION */
+.whatwedo {
+    min-height: 750px;
+    background-image: url(/img/whatwedo.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.title {
+    border: 0px;
+    background-color: #e7fef9;
+    border-radius: 15px;
+    font-size: 1em;
+    color: #5ab19f;
+    padding: 8px;
+}
+
+.titlebelowbutton h3 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titlebelowbutton h4 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+}
+
+.catwhatdo {
+    padding-bottom: 100px;
+}
+
+.catwhatdo a:link {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.catwhatdo a:hover {
+    color: #3a8860;
+    transition: .3s ease;
+}
+
+/*PRICING PLAN */
+.pricingplan {
+    background-color: #fff;
+    min-height: 780px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.pricingplan h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.pricingplan p {
+    font-size: 20px;
+}
+
+.titlepricingplan {
+    border: 0px;
+    background-color: #e7fef9;
+    border-radius: 15px;
+    font-size: 1em;
+    color: #5ab19f;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.rangeprice {
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 10px;
+    width: auto;
+    height: 40px;
+    display: inline-block;
+}
+
+.rangeprice:hover {
+    background-color: #3a8860;
+    border: 0px;
+    color: #fff;
+    transition: .5s ease;
+}
+
+.activeprice {
+    background-color: #3a8860;
+    border: 0;
+    color: #fff;
+}
+
+.cardheaderh2 {
+    font-size: 20px;
+}
+
+.headerpricingplan {
+    padding-bottom: 30px;
+}
+
+.fas {
+    background-color: rgba(55, 125, 255, 0.1);
+    color: #3a8860;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.card-body {
+    color: #2b2b2b;
+}
+
+.startedbtn {
+    border: 0px;
+    background-color: rgba(55, 125, 255, 0.1);
+    border-radius: 10px;
+    color: #3a8860;
+}
+
+.startedbtn:hover {
+    background-color: #3a8860;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.termsappli h6 {
+    font-size: 10px;
+    color: #808080;
+}
+
+.termsappli a:link {
+    color: #3a8860;
+    text-decoration: underline;
+}
+
+.termsappli a:hover {
+    color: #808080;
+    text-decoration: none;
+}
+
+/*FOOTER SECTION*/
+
+
+.footerpage h5 {
+    font-size: 16px;
+}
+
+.footerpage p {
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.footerpage a:link {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+
+.footerpage a:hover {
+    color: #3a8860;
+    transition: .3s ease;
+}
+
+.footerbelow p {
+    font-size: 12px;
+    color: #808080;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+    .mobile-text h1 {
+        color: #fff !important;
+        border-radius: 10px;
+        font-size: 30px;
+        text-shadow: 1.5px 1px 1px #2b2b2b;
+    }
+
+    .mobile-text p {
+        color: #fff !important;
+        text-shadow: 1.5px 1px 1px #2b2b2b;
+    }
+
+    .element {
+        color: #57d594;
+    }
+
+    .footerpage .row {
+        text-align: left;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

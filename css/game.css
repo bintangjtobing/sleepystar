@@ -1,0 +1,219 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    min-height: 830px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.header h1 {
+    padding-top: 300px;
+    font-size: 80px;
+}
+
+.btngame {
+    border: 0px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 150px;
+    color: #2b2b2b;
+}
+
+.btngame:hover {
+    background-color: #EE7752;
+    transform: scale(1.2);
+    transition: .7s ease;
+    color: #fff;
+}
+
+/* GUESSING WORD GAME CSS */
+.guessingwordgame {
+    min-height: 803px;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/dust-10s200px.svg);
+    background-color: #07092f;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.barisdua {
+    padding-top: 150px;
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+.guessingwordgame h1 {
+    font-size: 80px;
+}
+
+.guessingwordgame p {
+    font-size: 30px;
+}
+
+.guessingwordgame li {
+    list-style-type: none;
+}
+
+.guessingwordgame ul {
+    font-size: 20px;
+    display: inline-block;
+    animation: Glow 0.5s ease-in-out infinite alternate;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.choicesbtn {
+    border: 0;
+    border-radius: 25px;
+    background-color: #404378;
+    color: #fff;
+}
+
+.choicesbtn:hover {
+    background-color: #2d2f63;
+    transition: .2s ease;
+    cursor: progress;
+}
+
+.answerhere {
+    border: 0;
+    border-radius: 30px;
+}
+
+.submitanswer {
+    background-color: #404378;
+    color: #ffff;
+    cursor: pointer;
+    border: 0;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.submitanswer:hover {
+    background-color: #2d2f63;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.titlegametwo {
+    border: 0;
+    border-radius: 20px;
+    background-color: #404378;
+    color: #9d9fd1;
+    cursor: none;
+}
+
+
+/* TIC TAC TOE GAME CSS */
+.tictactoe {
+    min-height: 803px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/dust-10s200px.svg);
+    background-color: #2b2b2b;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.titlegameone {
+    border: 0;
+    border-radius: 20px;
+    background-color: #6b6a6a;
+    color: #cbcbcb;
+    cursor: none;
+}
+
+.square {
+    border: 2px solid #cbcbcb;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    font-size: 80px;
+    color: #cbcbcb;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.square:hover {
+    background-color: #cbcbcb;
+    border: 2px solid #2b2b2b;
+    color: #2b2b2b;
+}
+
+.scoreboard {
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.result {
+    font-size: 30px;
+    animation: Glow 0.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes Glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}

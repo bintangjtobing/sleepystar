@@ -1,0 +1,291 @@
+<!-- +-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+
+|b|i|n|t|a|n|g| |h|e|r|e|.| |w|o|w|,| |y|o|u| |f|o|u|n|d| |m|e|!| |:|)|
++-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://res.cloudinary.com/bintangtobing-com/image/upload/v1540304800/webpublic/staricon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <title>Bintang Tobing | @Next Academy</title>
+    <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+</head>
+
+
+<body id="home">
+    <div class="preloader">
+        <div class="loading">
+            <img src="infinity.gif" width="50">
+        </div>
+    </div>
+    <nav class="menu">
+        <ul id="leftmenu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#aboutme">My Profile</a></li>
+            <li><a href="#ido">What i do</a></li>
+            <li><a href="game.html">My game</a></li>
+            <li><a href="index.html"> My Bootstrap </a></li>
+            <li><a href="apiguess.html">Guess</a></li>
+        </ul>
+        <ul id="rightmenu">
+            <li><a href="#">
+                    <input type="text" class="searchinput" placeholder="Search here...">
+                </a></li>
+        </ul>
+    </nav>
+    <section class="header" id="header">
+        <a href="https://www.bintangtobing.com" target="_blank">
+            <img class="displaypic" src="img/display.jpg" alt="Me" style="width: 150px; height:150px;">
+        </a>
+        <h1 id="headertitle">Hello World!</h1>
+        <p>Coding@NEXT | Front End Developer Class | Kuala Lumpur</p>
+        <a href="https://facebook.com/bintangjeremiatobing" target="_blank">
+            <i class="fab fa-facebook-square" style="font-size: 32px;"></i>
+        </a>
+        <a href="https://instagram.com/bintangj.exe" target="_blank">
+            <i class="fab fa-instagram" style="font-size: 32px;"></i>
+        </a>
+        <a href="https://twitter.com/catoxxx" target="_blank">
+            <i class="fab fa-twitter-square" style="font-size: 32px;"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/bintangtobing" target="_blank">
+            <i class="fab fa-linkedin" style="font-size: 32px;"></i>
+        </a>
+        <br>
+        <button class="BelowSos" type="button" onclick="mychangetitle()">Did
+            you see my name?
+        </button>
+        <a href="index.html"><button class="BelowSos1" type="button">See another website</button></a>
+        <script>
+            function mychangetitle() {
+                var judulnama = document.getElementById('headertitle').innerHTML = 'Yes, my name is Bintang!';
+                judulnama.classList.add("judulnamastyle");
+            }
+        </script>
+    </section>
+
+    <!-- This section is just for about me.-->
+    <section class="aboutme" id="aboutme">
+        <h1>About Me</h1>
+        <p>This section is just for my story.</p>
+        <hr class="barisabout">
+        <br>
+        <div class="about" id="about">
+            <div class="leftbar">
+                <h3>My Profile</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum impedit necessitatibus quasi
+                    explicabo.
+                    Distinctio pariatur explicabo unde totam, sit possimus dolore, magni eligendi odio ex voluptatibus
+                    aperiam similique modi ipsam!
+                </p>
+            </div>
+            <div class="rightbar">
+                <h3>My Hobbies</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae quaerat animi laborum delectus
+                    sequi, iste, nulla et incidunt perferendis fuga accusamus neque rem quae dolores aperiam distinctio
+                    atque sapiente. Magni?
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section some motivation-->
+    <section class="whatido" id="whatido">
+        <div class="righttext">
+            <h1>When everybody plays,<br>i win the game.</h1>
+            <p style="text-align:right">I commit that if i have a plan to work, so i have to finish my work. Late or
+                earlier.
+                <br>This is me. I'm Bintang Tobing
+            </p>
+        </div>
+    </section>
+
+    <!-- This section is for what i do -->
+    <section class="ido" id="ido">
+        <h1>What i do?</h1>
+        <p>This is what i do.</p>
+        <hr class="barisabout">
+        <br>
+        <div class="leftbarfirst">
+            <span style="font-size: 50px;">
+                <i class="fas fa-code"></i>
+            </span>
+            <h3>I'm code</h3>
+            <p>I always coding like it's my friend tough.</p>
+        </div>
+        <div class="leftbarsecond">
+            <span style="font-size: 50px;">
+                <i class="fas fa-cogs"></i>
+            </span>
+            <h3>I develop</h3>
+            <p>I also can develop web and application.</p>
+        </div>
+        <div class="leftbarfirst">
+            <span style="font-size: 50px;">
+                <i class="fas fa-coffee"></i>
+            </span>
+            <h3>Coffee</h3>
+            <p>When your brain is too tired to code, you should take a cup of coffee :D</p>
+        </div>
+        <div class="leftbarsecond">
+            <span style="font-size: 50px;">
+                <i class="fas fa-headphones-alt"></i>
+            </span>
+            <h3>Relax bro.</h3>
+            <p>When afternoon comes up, and when you enjoy your coffee, don't forget to enjoy your music too. ;)</p>
+        </div>
+        <!--New line-->
+    </section>
+
+    <!-- This section for gallery -->
+    <section class="gallery" id="gallery">
+        <h1>Art means the world to me</h1>
+        <p>Let the floor dance, and let the flowers grow up until the time has come. Here are some few snaps i took
+            before i attend class Front End Web <a href="https://www.nextacademy.com/" target="_blank"><b>@NextAcademy.</b></a></p>
+        <hr class="barisabout">
+        <br>
+        <!--Gallery Here-->
+        <ul class="album">
+            <li class="album-item">
+                <img src="gallery/1.jpg" alt="Gallery">
+            </li>
+            <li class="album-item">
+                <img src="gallery/2.jpg" alt="Gallery">
+            </li>
+            <li class="album-item">
+                <img src="gallery/3.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/4.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/5.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/6.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/7.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/8.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/9.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/10.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/11.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/12.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/13.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/14.jpg" alt="Gallery">
+
+            </li>
+            <li class="album-item">
+                <img src="gallery/15.jpg" alt="Gallery.">
+
+            </li>
+        </ul>
+
+        <!--Lightbox Here-->
+        <div class="lightbox hidden">
+            <div class="lightbox-content">
+                <div class="lightbox-controls">
+                    <a href="" class="lightbox-close">
+                        <i class="far fa-times-circle"></i>
+                    </a>
+                    <a href="" class="lightbox-prev">Previous</a>
+                    <a href="" class="lightbox-next">Next</a>
+                </div>
+                <div class="lightbox-image">
+                    <img src="gallery/1.jpg" alt="Gallery.">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- This section for contact me-->
+    <section class="contactme" id="contactme">
+        <div class="leftcontact">
+            <h1>Let's be friends</h1>
+            <h5>I'm from indonesia and i want to be your friends too buddy!</h5>
+            <br>
+            <hr class="barisabout">
+            <h2>Let's get in touch</h1>
+                <a href="https://facebook.com/bintangjeremiatobing" target="_blank">
+                    <i class="fab fa-facebook-square" style="font-size: 40px;"></i>
+                </a>
+                <a href="https://instagram.com/bintangj.exe" target="_blank">
+                    <i class="fab fa-instagram" style="font-size: 40px;"></i>
+                </a>
+                <a href="https://twitter.com/catoxxx" target="_blank">
+                    <i class="fab fa-twitter-square" style="font-size: 40px;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/bintangtobing" target="_blank">
+                    <i class="fab fa-linkedin" style="font-size: 40px;"></i>
+                </a>
+        </div>
+    </section>
+
+    <!-- This section for footer -->
+    <section class="footerme" id="footerme">
+        <div class="copyrightleft">
+            <p id="copyright">
+                <i class="fas fa-globe"></i>
+                <a href="#">Indonesia</a> |
+                <a href="#">English</a> &nbsp; &nbsp;
+                <i class="fas fa-clock"></i>
+                <a id="timefooterdate"></a>
+                <script>
+                    var timef = new Date();
+                    document.getElementById('timefooterdate').innerHTML = timef
+                </script>
+            </p>
+        </div>
+        <div class="copyrightright">
+            <p id="copyright">About me &nbsp; Portfolio &nbsp; Contact Me &nbsp; Support me - &copy;Copyright - Bintang
+                Tobing <a id="copytime"></a>
+                <script>
+                    var timecopy = new Date();
+                    document.getElementById('copytime').innerHTML = timecopy.getFullYear()
+                </script>
+            </p>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+<!-- +-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+
+|b|i|n|t|a|n|g| |h|e|r|e|.| |w|o|w|,| |y|o|u| |f|o|u|n|d| |m|e|!| |:|)|
++-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+
+-->

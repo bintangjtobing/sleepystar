@@ -1,0 +1,123 @@
+<!-- +-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+
+|b|i|n|t|a|n|g| |h|e|r|e|.| |w|o|w|,| |y|o|u| |f|o|u|n|d| |m|e|!| |:|)|
++-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Let's play the game | @Next Academy</title>
+    <link rel="shortcut icon" href="https://res.cloudinary.com/bintangtobing-com/image/upload/v1540304800/webpublic/staricon.ico"
+        type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+<body>
+    <section class="header" id="header">
+        <h1>Hi! Welcome to the game.</h1>
+        <p>Please choose your game.</p>
+        <a href="#tictactoe"><button class="btngame mx-2" id="btngame1" type="button">Tic Tac Toe</button></a>
+        <a href="#guessingwordgame"><button class="btngame mx-2" id="btngame2" type="button">Guessing Word</button></a>
+
+    </section>
+    <!-- GUESSING WORD GAME -->
+    <section class="guessingwordgame" id="guessingwordgame">
+        <div class="row">
+            <div class="col-md-12 pt-5">
+                <button class="titlegametwo px-3 py-3" id="titlegametwo">Guessing Word Game.</button>
+            </div>
+        </div>
+        <div class="row barisdua">
+            <div class="col-md-5 text-left">
+                <h1>Guessing word...</h1>
+                <p>Keep your head is safe.</p>
+                <button class="submitanswer hidden px-3 py-3" id="resetbtn">Reset</button>
+            </div>
+            <div class="col-md-7 text-right">
+                <button class="choicesbtn px-3 py-3 mb-3" id="choicesbtn">You have<span id="choices-left"> </span>choices
+                    left.</button>
+                <h2><b>Guess the word.</b></h2>
+                <!-- Bananas -->
+                <p id="word-state"></p>
+                <br>
+                <h2><b>Guessed Alphabets</b></h2>
+                <li id="guessedlist">
+                </li>
+                <br>
+                <form id="inputform">
+                    <input class="answerhere px-3 py-3 text-center" id="answerhere" type="text" placeholder="Input your answer here.."
+                        maxlength="1">
+                    <button class="submitanswer px-3 py-3" type='submit' id="submitanswer">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIC TAC TOE GAME -->
+    <section class="tictactoe" id="tictactoe">
+        <div class="row">
+            <div class="col-md-12 pt-5">
+                <button class="titlegameone px-3 py-3" id="titlegameone">Tic Tac Toe Game.</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center my-4">
+                <table align="center">
+                    <tr>
+                        <td class="square" id="0"></td>
+                        <td class="square" id="1"></td>
+                        <td class="square" id="2"></td>
+                    </tr>
+                    <tr>
+                        <td class="square" id="3"></td>
+                        <td class="square" id="4"></td>
+                        <td class="square" id="5"></td>
+                    </tr>
+                    <tr>
+                        <td class="square" id="6"></td>
+                        <td class="square" id="7"></td>
+                        <td class="square" id="8"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md scoreboard">
+                    <p>Player ( X )</p>
+                    <span class="result" id="resultx"></span>
+                </div>
+                <div class="col-md scoreboard">
+                    <p>Draw</p>
+                    <span class="result" id="draw"></span>
+                </div>
+                <div class="col-md scoreboard">
+                    <p>Player ( O )</p>
+                    <span class="result" id="resulto"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/games.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- +-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+
+|b|i|n|t|a|n|g| |h|e|r|e|.| |w|o|w|,| |y|o|u| |f|o|u|n|d| |m|e|!| |:|)|
++-+-+-+-+-+-+-+ +-+-+-+-+-+ +-+-+-+-+ +-+-+-+ +-+-+-+-+-+ +-+-+-+ +-+-+ -->
