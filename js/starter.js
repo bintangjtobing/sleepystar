@@ -4,7 +4,6 @@
 const defaultBtn = document.getElementsByClassName('rangeprice');
 const websitePackage = document.getElementById('monthly').addEventListener("click", displaywebsitepackage);
 const yearly = document.getElementById('yearly').addEventListener("click", displayyearprice);
-const hideCond = document.getElementById('showhide').addEventListener("click", hidethiselement);
 
 function displaywebsitepackage() {
     defaultBtn[0].classList.add('activeprice');
@@ -47,13 +46,4 @@ function displayyearprice() {
     productTitle[0].innerHTML = "Starter Hosting";
     productTitle[1].innerHTML = "Profesional Hosting";
     productTitle[2].innerHTML = "Masterweb Hosting";
-}
-
-function hidethiselement() {
-    var ColPrice = document.getElementById('pricinghosting');
-    if (ColPrice.style.display === "none") {
-        ColPrice.style.display = "block";
-    } else {
-        ColPrice.style.display = "none";
-    }
 }
